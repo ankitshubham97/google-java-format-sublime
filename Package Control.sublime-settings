@@ -1,0 +1,13 @@
+{
+	"bootstrapped": true,
+	"downloader_precedence":
+	{
+		"osx":
+		[
+			"curl"
+		]
+	},
+	"in_process_packages":
+	[
+	]
+}

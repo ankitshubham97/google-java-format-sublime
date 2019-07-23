@@ -1,0 +1,6 @@
+[
+    {
+        "keys": ["ctrl+shift+g"],
+        "command": "google_java_format"
+    }
+]
