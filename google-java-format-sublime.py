@@ -4,7 +4,7 @@ import sys
 
 class GoogleJavaFormatCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
-		p = subprocess.Popen(['java', '-jar', './artifacts/google-java-format-1.8-SNAPSHOT-all-deps.jar', '-i', str(self.view.file_name())], stdout=subprocess.PIPE, stderr=None, stdin=None)
+		p = subprocess.Popen(['java', '-jar', sublime.packages_path()+'/google-java-format-sublime/artifacts/google-java-format-1.8-SNAPSHOT-all-deps.jar', '-i', str(self.view.file_name())], stdout=subprocess.PIPE, stderr=None, stdin=None)
 		stdout, stderr = p.communicate()
 		if p.returncode != 0:
 			sys.exit(p.returncode)
