@@ -2,7 +2,7 @@
 A sublime plugin for formatting java code files with google-java-format
 
 ## Platforms supported:
-Currently, it is only supported in OSX.
+Currently, it is only supported in OSX and Linux(Ubuntu).
 
 ## Sublime version supported:
 Currently, it is only supported in Sublime Text 2. However, it may run successfully for Sublime Text 3 as well.
