@@ -17,7 +17,11 @@ Currently, it is only supported in Sublime Text 2. However, it may run successfu
 5. Its done.
 
 ### Linux(Ubuntu) platform
-<TODO>
+1. Open Sublime.
+2. Go to "Preferences -> Browse Packages".
+3. This would open a Nautilus with the package path. For me, it opens up this path: "/home/ankit/.config/sublime-text-3/Packages/".
+4. Clone the repo or download and extract the archive file at this location. After performing this step, I have google-java-format-sublime at the path "/home/ankit/.config/sublime-text-3/Packages/google-java-format-sublime".
+5. Its done.
 
 ## How to run:
 
@@ -25,7 +29,7 @@ Currently, it is only supported in Sublime Text 2. However, it may run successfu
 Control+Shift+g
 
 ### Linux(Ubuntu) platform
-<TODO>
+Ctrl+Shift+g
 
 ## Reference:
 https://github.com/google/google-java-format
